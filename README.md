@@ -1,2 +1,2 @@
 # Hack2020
-hacktoberfest repo to create a website. 
+hacktoberfest repo to create a website in. 
