@@ -1,2 +1,121 @@
-text-align: center;
-flex-direction: column;
+*{
+  box-sizing: border-box;
+}
+
+.header{
+    display: block;
+    background-color: #333 ;
+    padding: 10px;
+    overflow: hidden;
+}
+body{
+  margin: 0px;
+  padding: 10px;
+  background-color:black;
+  text-align: center;
+}
+footer{
+  color: aliceblue;
+  text-align: center;
+  position: inherit;
+  font-family: cursive;
+  background-color: #333;
+}
+.here{
+  color: aliceblue;
+
+}
+
+
+
+  
+  
+
+.logo{
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+.jaspreet{
+  display: inline-block;  
+  font-family: cursive;
+  color: floralwhite;
+  float: right;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  font-family: cursive;
+}
+
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: rgb(197, 8, 255);
+}
+
+section{
+   float: left;
+   width: 60%;
+   color: aliceblue;
+   height: auto;
+  
+   
+}
+.right{
+  margin-left: 5px;
+  color: aliceblue;
+  width: 38%;
+  float: right;
+  
+  
+  
+}
+.aboutblog ,.makesblog {
+  width: auto;
+  background-color: green;
+  border-radius: 25px;
+  margin-right: 2px solid black;
+  font-family: cursive;
+  
+}
+.thankyou {
+  width: auto;
+  
+  height: 50px;
+  background-color: cyan;
+  
+  color: black;
+  border-radius: 25px;
+  margin-right: 2px solid black;
+  font-family: cursive;
+  
+}
+.main::after{
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.blog{
+  text-align: center;
+
+}
